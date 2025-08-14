@@ -1,0 +1,67 @@
+AutoQuest/
+│
+├── backend/                          # API and NLP logic
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py                    # FastAPI entrypoint
+│   │   ├── config.py                  # App configuration (env variables)
+│   │   ├── routers/                   # API routes
+│   │   │   ├── __init__.py
+│   │   │   ├── ingest.py              # File upload & text extraction
+│   │   │   ├── generate.py            # Question generation endpoints
+│   │   ├── services/                  # Business logic
+│   │   │   ├── __init__.py
+│   │   │   ├── text_processing.py     # PDF/Text cleaning & chunking
+│   │   │   ├── retrieval.py           # Embedding & FAISS retrieval
+│   │   │   ├── question_generation.py # AI model for generating questions
+│   │   │   ├── validation.py          # Grammar, relevance, and difficulty checks
+│   │   ├── models/                    # Pydantic & database schemas
+│   │   │   ├── __init__.py
+│   │   │   ├── schemas.py
+│   ├── requirements.txt               # Python dependencies
+│   ├── Dockerfile
+│
+├── frontend/                          # Web UI for AutoQuest
+│   ├── public/                         # Static files
+│   │   ├── index.html
+│   │   ├── favicon.ico
+│   │   ├── logo.png                    # AutoQuest logo
+│   │   └── manifest.json
+│   │
+│   ├── src/
+│   │   ├── assets/                     # Images, icons, styles
+│   │   │   ├── logo.svg
+│   │   │   └── colors.css
+│   │   ├── components/                 # Reusable UI components
+│   │   │   ├── FileUploader.jsx
+│   │   │   ├── QuestionCard.jsx
+│   │   │   ├── Loader.jsx
+│   │   │   ├── DifficultySelector.jsx
+│   │   │   ├── QuestionTypeSelector.jsx
+│   │   │   └── Navbar.jsx
+│   │   ├── pages/                      # Page-level components
+│   │   │   ├── Home.jsx
+│   │   │   ├── Upload.jsx
+│   │   │   ├── Generate.jsx
+│   │   │   ├── Review.jsx
+│   │   └── services/                   # API calls to backend
+│   │       ├── api.js
+│   │   ├── App.jsx                     # Main React component
+│   │   ├── index.js                    # React entrypoint
+│   │   ├── App.css
+│   │   └── index.css
+│   │
+│   ├── package.json
+│   ├── vite.config.js                  # Or webpack config if using CRA
+│   └── README.md
+│
+├── docs/                               # Documentation for the project
+│   ├── architecture-diagram.png
+│   ├── system-design.md
+│   ├── API-docs.md
+│
+├── data/                               # Sample datasets & test PDFs
+│
+├── README.md                           # Main project documentation
+├── LICENSE
+└── .gitignore
