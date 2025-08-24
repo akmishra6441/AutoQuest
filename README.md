@@ -7,40 +7,19 @@ AutoQuest – An AI-powered, context-aware question generation system for online
 ---
 
 
+🚀 Features
 
-\## 🚀 Features
+Context-Aware Question Generation– Understands topics from text or documents.
 
-\- \*\*Context-Aware Question Generation\*\* – Understands topics from text or documents.
+Multiple Question Types– MCQs, short-answer, and fill-in-the-blank.
 
-\- \*\*Multiple Question Types\*\* – MCQs, short-answer, and fill-in-the-blank.
+Difficulty Control– Adjusts question complexity.
 
-\- \*\*Difficulty Control\*\* – Adjusts question complexity.
+Document Support – Upload PDFs, Word docs, or paste raw text.
 
-\- \*\*Document Support\*\* – Upload PDFs, Word docs, or paste raw text.
+Web Interface – Simple UI for uploading content and viewing generated questions.
 
-\- \*\*Web Interface\*\* – Simple UI for uploading content and viewing generated questions.
-
-\- \*\*Extensible API\*\* – Integrate with existing LMS or e-learning tools.
-
-
-
----
-
-
-
-\## 🛠️ Tech Stack
-
-\- \*\*Backend\*\*: Python, FastAPI
-
-\- \*\*NLP Models\*\*: T5 / BART / BERT (Hugging Face Transformers)
-
-\- \*\*Preprocessing\*\*: NLTK, spaCy
-
-\- \*\*Frontend\*\*: React.js / Streamlit
-
-\- \*\*Database\*\*: MongoDB / PostgreSQL (optional)
-
-\- \*\*Deployment\*\*: Render / Heroku / AWS
+Extensible API – Integrate with existing LMS or e-learning tools.
 
 
 
@@ -48,9 +27,27 @@ AutoQuest – An AI-powered, context-aware question generation system for online
 
 
 
-\## 📂 Project Structure
+🛠️ Tech Stack
+
+Backend: Python, FastAPI
+
+NLP Models: T5 / BART / BERT (Hugging Face Transformers)
+
+Preprocessing: NLTK, spaCy
+
+Frontend: React.js / Streamlit
+
+Database: MongoDB / PostgreSQL (optional)
+
+Deployment: Render / Heroku / AWS
 
 
+
+---
+
+
+
+📂 Project Structure
 
 
 
